@@ -1,0 +1,19 @@
+.tblLetter {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.tblLetterSpan {
+  padding: 0 1.3rem;
+  font-size: 20pt;
+  text-align: center;
+  visibility: hidden;
+}
+
+.show-Bingo {
+  visibility: visible;
+}
+
+.gridBox {
+  border-color: black;
+}
